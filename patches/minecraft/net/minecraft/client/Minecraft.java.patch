@@ -558,3 +558,11 @@
     }
  
     public EntityModelSet m_167973_() {
+
+    private String createTitle() {
+       StringBuilder stringbuilder = new StringBuilder("OraliaMC | ");
+       if (this.f_90998_ != null) {
+          stringbuilder.append(this.f_90998_.m_92546_());
+       }
+       return stringbuilder.toString();
+    }
