@@ -23,6 +23,7 @@
 /projects/mcp/
 /projects/clean/
 /projects/forge/
+!projects/forge/src/main/java/net/minecraft/client/Minecraft.java
 /projects/fmlonly/
 #/patches/*
 
